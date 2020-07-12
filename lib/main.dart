@@ -12,8 +12,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Flokeshdhakar.com%2Fprojects%2Flightbox2%2Fimages%2Fimage-3.jpg&f=1&nofb=1'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
